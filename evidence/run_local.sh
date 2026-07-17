@@ -2,7 +2,7 @@
 set -euo pipefail
 
 repo_root="$(cd "$(dirname "$0")/.." && pwd)"
-task_dir="$repo_root/log-report 3"
+task_dir="$repo_root/log-report"
 pytest_bin="${PYTEST_BIN:-pytest}"
 run_root="$(mktemp -d)"
 trap 'rm -rf "$run_root"' EXIT

@@ -11,45 +11,45 @@
             "skipped": 0,
             "pending": 0,
             "other": 0,
-            "start": 1784247151.932677,
-            "stop": 1784247152.031425
+            "start": 1784247298.524343,
+            "stop": 1784247298.602803
         },
         "tests": [
             {
-                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py::test_criterion_1_report_is_json_object",
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.zAe09p5uGo/oracle/tests/test_outputs.py::test_criterion_1_report_is_json_object",
                 "status": "passed",
-                "duration": 0.00030841599982522894,
-                "start": 1784247152.029789,
-                "stop": 1784247152.03023,
+                "duration": 0.00030045799758227076,
+                "start": 1784247298.601129,
+                "stop": 1784247298.601563,
                 "retries": 0,
-                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py"
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.zAe09p5uGo/oracle/tests/test_outputs.py"
             },
             {
-                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py::test_criterion_2_total_requests",
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.zAe09p5uGo/oracle/tests/test_outputs.py::test_criterion_2_total_requests",
                 "status": "passed",
-                "duration": 0.00021237599867163226,
-                "start": 1784247152.030328,
-                "stop": 1784247152.030617,
+                "duration": 0.0002257089981867466,
+                "start": 1784247298.601664,
+                "stop": 1784247298.601969,
                 "retries": 0,
-                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py"
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.zAe09p5uGo/oracle/tests/test_outputs.py"
             },
             {
-                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py::test_criterion_3_unique_ips",
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.zAe09p5uGo/oracle/tests/test_outputs.py::test_criterion_3_unique_ips",
                 "status": "passed",
-                "duration": 0.00020941600268997718,
-                "start": 1784247152.030706,
-                "stop": 1784247152.030997,
+                "duration": 0.0002054169999610167,
+                "start": 1784247298.602062,
+                "stop": 1784247298.6023529,
                 "retries": 0,
-                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py"
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.zAe09p5uGo/oracle/tests/test_outputs.py"
             },
             {
-                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py::test_criterion_4_top_path",
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.zAe09p5uGo/oracle/tests/test_outputs.py::test_criterion_4_top_path",
                 "status": "passed",
-                "duration": 0.00019537599837349262,
-                "start": 1784247152.031082,
-                "stop": 1784247152.031342,
+                "duration": 0.00020316699919931125,
+                "start": 1784247298.602443,
+                "stop": 1784247298.602714,
                 "retries": 0,
-                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py"
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.zAe09p5uGo/oracle/tests/test_outputs.py"
             }
         ]
     }

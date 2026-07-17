@@ -5,11 +5,11 @@ an Apache-style access log.
 
 ## Task contents
 
-- `log-report 3/task.toml`: Harbor task configuration
-- `log-report 3/instruction.md`: agent instructions and four success criteria
-- `log-report 3/environment/`: reproducible task environment and input log
-- `log-report 3/solution/`: oracle solution
-- `log-report 3/tests/`: verifier with one test per success criterion
+- `log-report/task.toml`: Harbor task configuration
+- `log-report/instruction.md`: agent instructions and four success criteria
+- `log-report/environment/`: reproducible task environment and input log
+- `log-report/solution/`: oracle solution
+- `log-report/tests/`: verifier with one test per success criterion
 - `evidence/`: oracle, nop-agent, and deliberately bugged-solution results
 
 ## What was fixed
