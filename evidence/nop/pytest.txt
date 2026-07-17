@@ -1,0 +1,97 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.0, pytest-8.4.1, pluggy-1.6.0
+rootdir: /
+plugins: json-ctrf-0.3.5
+collected 4 items
+
+../../../../../var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py F [ 25%]
+FFF                                                                      [100%]
+
+=================================== FAILURES ===================================
+____________________ test_criterion_1_report_is_json_object ____________________
+
+    def test_criterion_1_report_is_json_object():
+        """Criterion 1: report.json is valid JSON with an object at the top level."""
+>       _load_report()
+
+/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:23:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def _load_report():
+>       assert REPORT.exists(), "no /app/report.json found"
+E       AssertionError: no /app/report.json found
+E       assert False
+E        +  where False = exists()
+E        +    where exists = PosixPath('/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/app/report.json').exists
+
+/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:15: AssertionError
+_______________________ test_criterion_2_total_requests ________________________
+
+    def test_criterion_2_total_requests():
+        """Criterion 2: total_requests is an integer equal to non-blank log lines."""
+>       data = _load_report()
+               ^^^^^^^^^^^^^^
+
+/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:28:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def _load_report():
+>       assert REPORT.exists(), "no /app/report.json found"
+E       AssertionError: no /app/report.json found
+E       assert False
+E        +  where False = exists()
+E        +    where exists = PosixPath('/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/app/report.json').exists
+
+/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:15: AssertionError
+_________________________ test_criterion_3_unique_ips __________________________
+
+    def test_criterion_3_unique_ips():
+        """Criterion 3: unique_ips is an integer equal to the distinct client IPs."""
+>       data = _load_report()
+               ^^^^^^^^^^^^^^
+
+/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:38:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def _load_report():
+>       assert REPORT.exists(), "no /app/report.json found"
+E       AssertionError: no /app/report.json found
+E       assert False
+E        +  where False = exists()
+E        +    where exists = PosixPath('/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/app/report.json').exists
+
+/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:15: AssertionError
+__________________________ test_criterion_4_top_path ___________________________
+
+    def test_criterion_4_top_path():
+        """Criterion 4: top_path is a string equal to the most requested path."""
+>       data = _load_report()
+               ^^^^^^^^^^^^^^
+
+/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:47:
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+    def _load_report():
+>       assert REPORT.exists(), "no /app/report.json found"
+E       AssertionError: no /app/report.json found
+E       assert False
+E        +  where False = exists()
+E        +    where exists = PosixPath('/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/app/report.json').exists
+
+/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:15: AssertionError
+=============================== warnings summary ===============================
+../../../../../private/tmp/project-dynamo-verifier/lib/python3.11/site-packages/_pytest/cacheprovider.py:475
+  /private/tmp/project-dynamo-verifier/lib/python3.11/site-packages/_pytest/cacheprovider.py:475: PytestCacheWarning: could not create cache path /.pytest_cache/v/cache/nodeids: [Errno 30] Read-only file system: '/pytest-cache-files-nultu2xi'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+../../../../../private/tmp/project-dynamo-verifier/lib/python3.11/site-packages/_pytest/cacheprovider.py:429
+  /private/tmp/project-dynamo-verifier/lib/python3.11/site-packages/_pytest/cacheprovider.py:429: PytestCacheWarning: could not create cache path /.pytest_cache/v/cache/lastfailed: [Errno 30] Read-only file system: '/pytest-cache-files-8yplg2lc'
+    config.cache.set("cache/lastfailed", self.lastfailed)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+=========================== short test summary info ============================
+FAILED ../../../../../var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py::test_criterion_1_report_is_json_object
+FAILED ../../../../../var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py::test_criterion_2_total_requests
+FAILED ../../../../../var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py::test_criterion_3_unique_ips
+FAILED ../../../../../var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py::test_criterion_4_top_path
+======================== 4 failed, 2 warnings in 0.09s =========================

@@ -1,0 +1,59 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 4,
+            "passed": 3,
+            "failed": 1,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1784247152.413007,
+            "stop": 1784247152.496296
+        },
+        "tests": [
+            {
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/bugged/tests/test_outputs.py::test_criterion_1_report_is_json_object",
+                "status": "passed",
+                "duration": 0.0003042919997824356,
+                "start": 1784247152.486179,
+                "stop": 1784247152.486619,
+                "retries": 0,
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/bugged/tests/test_outputs.py"
+            },
+            {
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/bugged/tests/test_outputs.py::test_criterion_2_total_requests",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.00037479200000234414,
+                "start": 1784247152.486721,
+                "stop": 1784247152.4953458,
+                "retries": 0,
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/bugged/tests/test_outputs.py",
+                "trace": "def test_criterion_2_total_requests():\n        \"\"\"Criterion 2: total_requests is an integer equal to non-blank log lines.\"\"\"\n        data = _load_report()\n        assert type(data.get(\"total_requests\")) is int, \"total_requests must be an integer\"\n>       assert data.get(\"total_requests\") == EXPECTED_TOTAL_REQUESTS, (\n            f\"total_requests: expected {EXPECTED_TOTAL_REQUESTS}, \"\n            f\"got {data.get('total_requests')!r}\"\n        )\nE       AssertionError: total_requests: expected 6, got 7\nE       assert 7 == 6\nE        +  where 7 = <built-in method get of dict object at 0x1050c1a80>('total_requests')\nE        +    where <built-in method get of dict object at 0x1050c1a80> = {'top_path': '/index.html', 'total_requests': 7, 'unique_ips': 3}.get\n\n/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/bugged/tests/test_outputs.py:30: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/bugged/tests/test_outputs.py::test_criterion_3_unique_ips",
+                "status": "passed",
+                "duration": 0.0002516659988032188,
+                "start": 1784247152.495473,
+                "stop": 1784247152.4958239,
+                "retries": 0,
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/bugged/tests/test_outputs.py"
+            },
+            {
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/bugged/tests/test_outputs.py::test_criterion_4_top_path",
+                "status": "passed",
+                "duration": 0.0002161250013159588,
+                "start": 1784247152.495923,
+                "stop": 1784247152.496207,
+                "retries": 0,
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/bugged/tests/test_outputs.py"
+            }
+        ]
+    }
+}

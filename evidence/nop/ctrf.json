@@ -1,0 +1,68 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 4,
+            "passed": 0,
+            "failed": 4,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1784247152.162754,
+            "stop": 1784247152.2521029
+        },
+        "tests": [
+            {
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py::test_criterion_1_report_is_json_object",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.00034008300099230837,
+                "start": 1784247152.2386508,
+                "stop": 1784247152.247846,
+                "retries": 0,
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py",
+                "trace": "def test_criterion_1_report_is_json_object():\n        \"\"\"Criterion 1: report.json is valid JSON with an object at the top level.\"\"\"\n>       _load_report()\n\n/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:23: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def _load_report():\n>       assert REPORT.exists(), \"no /app/report.json found\"\nE       AssertionError: no /app/report.json found\nE       assert False\nE        +  where False = exists()\nE        +    where exists = PosixPath('/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/app/report.json').exists\n\n/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:15: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py::test_criterion_2_total_requests",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.0002578329986135941,
+                "start": 1784247152.247967,
+                "stop": 1784247152.2493281,
+                "retries": 0,
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py",
+                "trace": "def test_criterion_2_total_requests():\n        \"\"\"Criterion 2: total_requests is an integer equal to non-blank log lines.\"\"\"\n>       data = _load_report()\n               ^^^^^^^^^^^^^^\n\n/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:28: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def _load_report():\n>       assert REPORT.exists(), \"no /app/report.json found\"\nE       AssertionError: no /app/report.json found\nE       assert False\nE        +  where False = exists()\nE        +    where exists = PosixPath('/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/app/report.json').exists\n\n/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:15: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py::test_criterion_3_unique_ips",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.00021770899911643937,
+                "start": 1784247152.249425,
+                "stop": 1784247152.250649,
+                "retries": 0,
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py",
+                "trace": "def test_criterion_3_unique_ips():\n        \"\"\"Criterion 3: unique_ips is an integer equal to the distinct client IPs.\"\"\"\n>       data = _load_report()\n               ^^^^^^^^^^^^^^\n\n/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:38: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def _load_report():\n>       assert REPORT.exists(), \"no /app/report.json found\"\nE       AssertionError: no /app/report.json found\nE       assert False\nE        +  where False = exists()\nE        +    where exists = PosixPath('/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/app/report.json').exists\n\n/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:15: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            },
+            {
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py::test_criterion_4_top_path",
+                "status": "failed",
+                "raw_status": "call_failed",
+                "duration": 0.00022508299844048452,
+                "start": 1784247152.25074,
+                "stop": 1784247152.252021,
+                "retries": 0,
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py",
+                "trace": "def test_criterion_4_top_path():\n        \"\"\"Criterion 4: top_path is a string equal to the most requested path.\"\"\"\n>       data = _load_report()\n               ^^^^^^^^^^^^^^\n\n/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:47: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ \n\n    def _load_report():\n>       assert REPORT.exists(), \"no /app/report.json found\"\nE       AssertionError: no /app/report.json found\nE       assert False\nE        +  where False = exists()\nE        +    where exists = PosixPath('/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/app/report.json').exists\n\n/var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/nop/tests/test_outputs.py:15: AssertionError",
+                "message": "The test failed in the call phase due to an assertion error"
+            }
+        ]
+    }
+}

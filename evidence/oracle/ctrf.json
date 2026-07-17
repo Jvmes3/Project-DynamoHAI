@@ -1,0 +1,56 @@
+{
+    "results": {
+        "tool": {
+            "name": "pytest",
+            "version": "8.4.1"
+        },
+        "summary": {
+            "tests": 4,
+            "passed": 4,
+            "failed": 0,
+            "skipped": 0,
+            "pending": 0,
+            "other": 0,
+            "start": 1784247151.932677,
+            "stop": 1784247152.031425
+        },
+        "tests": [
+            {
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py::test_criterion_1_report_is_json_object",
+                "status": "passed",
+                "duration": 0.00030841599982522894,
+                "start": 1784247152.029789,
+                "stop": 1784247152.03023,
+                "retries": 0,
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py"
+            },
+            {
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py::test_criterion_2_total_requests",
+                "status": "passed",
+                "duration": 0.00021237599867163226,
+                "start": 1784247152.030328,
+                "stop": 1784247152.030617,
+                "retries": 0,
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py"
+            },
+            {
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py::test_criterion_3_unique_ips",
+                "status": "passed",
+                "duration": 0.00020941600268997718,
+                "start": 1784247152.030706,
+                "stop": 1784247152.030997,
+                "retries": 0,
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py"
+            },
+            {
+                "name": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py::test_criterion_4_top_path",
+                "status": "passed",
+                "duration": 0.00019537599837349262,
+                "start": 1784247152.031082,
+                "stop": 1784247152.031342,
+                "retries": 0,
+                "file_path": "var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py"
+            }
+        ]
+    }
+}

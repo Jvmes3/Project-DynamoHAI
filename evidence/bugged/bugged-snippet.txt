@@ -1,0 +1,1 @@
+            "total_requests": total + 1,  # deliberate off-by-one error

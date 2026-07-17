@@ -1,0 +1,22 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.11.0, pytest-8.4.1, pluggy-1.6.0
+rootdir: /
+plugins: json-ctrf-0.3.5
+collected 4 items
+
+../../../../../var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py . [ 25%]
+...                                                                      [100%]
+
+=============================== warnings summary ===============================
+../../../../../private/tmp/project-dynamo-verifier/lib/python3.11/site-packages/_pytest/cacheprovider.py:475
+  /private/tmp/project-dynamo-verifier/lib/python3.11/site-packages/_pytest/cacheprovider.py:475: PytestCacheWarning: could not create cache path /.pytest_cache/v/cache/nodeids: [Errno 30] Read-only file system: '/pytest-cache-files-wo4ahf0s'
+    config.cache.set("cache/nodeids", sorted(self.cached_nodeids))
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+==================================== PASSES ====================================
+=========================== short test summary info ============================
+PASSED ../../../../../var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py::test_criterion_1_report_is_json_object
+PASSED ../../../../../var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py::test_criterion_2_total_requests
+PASSED ../../../../../var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py::test_criterion_3_unique_ips
+PASSED ../../../../../var/folders/qh/3wnsgbt90rv9c8qx_pzbr7rm0000gn/T/tmp.5rGCifwv6X/oracle/tests/test_outputs.py::test_criterion_4_top_path
+========================= 4 passed, 1 warning in 0.10s =========================
